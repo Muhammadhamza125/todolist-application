@@ -1,0 +1,57 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blueviolet;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main h1{
+    text-align: center;
+    color: #fff;
+    padding-bottom: 50px;
+}
+.main{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input#inputTodo{
+    background: #fff;
+    height: 40px;
+    width: 300px;
+    border: none;   
+    border-radius: 20px;
+    border: 1px solid #FFBF01;
+    padding-left: 20px;
+}
+button#addBtn {
+    width: 80px;
+    height: 36px;
+    border-radius: 20px;
+    background: #FFBF01;
+    border: none;
+    color: #fff;
+    margin-left: 10px;
+}
+button#addBtn:hover{
+    transform: scale(1.1);
+}
+ul{
+    list-style: none;
+}
+li#listing {
+    background: #fff;
+    padding: 8px;
+    margin-top: 23px;
+    border-radius: 10px;
+} */
+
+body {
+    background: blueviolet;
+}
+.bg-info {
+    --bs-bg-opacity: 1;
+    background-color: blueviolet !important;
+}
